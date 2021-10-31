@@ -1,6 +1,6 @@
 import React from 'react'
-import ThumbNail from './ThumbNail';
 import FlipMove from 'react-flip-move';
+import ThumbNail from './ThumbNail';
 ////////
 function Results({results}) {
     return (
