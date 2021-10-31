@@ -3,13 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
-
-    "lint": "next lint",
-    "css:dev": "TAILWIND_MODE=watch postcss  ./styles/globals.css --watch",
-    "css:build": "postcss   ./styles/globals.css"
+    "lint": "next lint"
   },
   "dependencies": {
     "@heroicons/react": "^1.0.5",
