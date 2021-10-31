@@ -12,7 +12,7 @@ export default function Header() {
                 <HeaderItem title='SEARCH' Icon={SearchIcon} />
                 <HeaderItem title='ACCOUNT' Icon={UserIcon} />
             </div>
-            <Image src="https://press.hulu.com/wp-content/uploads/2020/02/hulu-white.png" width={200} height={100} />
+            <Image alt="" src="https://press.hulu.com/wp-content/uploads/2020/02/hulu-white.png" width={200} height={100} />
         </header>
     )
 }
