@@ -25,4 +25,4 @@ function  ThumbNail    ({ result },ref) {
         </div>
     )
 };
- export default React.forwardRef(ThumbNail)
+ export default ThumbNail =  React.forwardRef(ThumbNail)
